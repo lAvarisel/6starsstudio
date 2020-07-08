@@ -1,0 +1,154 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../../assets/Fonts/Gilroy-Light.otf');
+}
+.pageContact {
+    font-family: Gilroy;
+    &__inner {
+        // padding-top: 115px;
+        max-width: 1530px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    &__content {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 165px;
+        margin-bottom: 200px;
+        max-width: 1530px;
+        width: 100%;
+        align-items: center;
+    }
+    &__map {
+        max-width: 782px;
+        border-radius: 15px;
+    }
+    &__info {
+        max-width: 620px;
+        width: 100%;
+    }
+    &__title {
+        width: 100px;
+        height: 62px;
+        // font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #292929;
+        border-bottom: 2px solid #111A6C;
+    }
+    &__brand {
+        // font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        color: #292929;
+        margin: 0;
+    }
+    &__adress {
+        // font-family: Gilroy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        color: #5F5E5E;
+        margin: 0;
+        margin-top: 15px;
+    }
+    &__mobile,
+    &__email {
+        // font-family: Gilroy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 32px;
+        color: #292929;
+        margin: 0;
+    }
+    &__contactInner {
+        display: flex;
+        margin-top: 25px;
+    }
+    &__email {
+        margin-top: 25px;
+    }
+    &__viber {
+        margin-left: 30px;
+    }
+    &__skype {
+        margin-left: 20px;
+    }
+    &__label {
+        max-width: 100px;
+        width: 100%;
+    }
+    &__formInner {
+        display: flex;
+    }
+    &__btn {
+        margin-left: 100px;
+    }
+    &__form {
+        margin-top: 30px;
+    }
+    &__formInner,
+    &__btn {
+        margin-top: 18px;
+    }
+    &__input {
+        width: 490px;
+        height: 42px;
+        border: 1px solid #292929;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+    &__input--big {
+        height: 128px;
+    }
+    &__btn {
+        width: 490px;
+        height: 61px;
+        cursor: pointer;
+        border: 2px solid #111A6C;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #292929;
+    }
+    &__btn:hover {
+        background: #111A6C;
+        color: #E9E9E9;
+    }
+    &__btn:active {
+        color: #292929;
+        background: #9B27E2;
+    }
+    &__btn--disabled {
+        background: #C4C4C4;
+        color: #292929;
+        
+    }
+    @media (max-width: 1460px) {
+        .pageContact__map {
+            width: 550px;
+        }
+    }
+    @media (max-width: 1250px) {
+        .pageContact__map {
+            display: none;
+        }
+    }
+}

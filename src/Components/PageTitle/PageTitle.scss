@@ -1,0 +1,29 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../../assets/Fonts/Gilroy-Light.otf');
+}
+.pageTitle {
+    padding-top: 115px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 125%;
+    /* or 32px */
+    width: 100px;
+    height: 42px;
+    text-align: center;
+
+    color: #292929;
+    &--Service {
+        border-bottom: 2px solid #F9FD2E;
+    }
+    &--Work {
+        border-bottom: 2px solid #9B27E2;
+    }
+    &--Client,
+    &--About,
+    &--Contact {
+        border-bottom: 2px solid #111A6C;
+    }
+}

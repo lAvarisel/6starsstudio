@@ -1,0 +1,42 @@
+{
+  "item_1": {
+    "progectPhotos": "w1.png",
+    "title": "Project 1",
+    "type": "Website, SEO"
+  },
+  "item_2": {
+    "progectPhotos": "w2.png",
+    "title": "Name of the project",
+    "type": "UX, advertising"
+  },
+  "item_3": {
+    "progectPhotos": "w3.png",
+    "title": "Project with long name",
+    "type": "Advertising"
+  },
+  "item_4": {
+    "progectPhotos": "w4.png",
+    "title": "Project with long name",
+    "type": "E-commerce, advertising"
+  },
+  "item_5": {
+    "progectPhotos": "w5.png",
+    "title": "Project for a large co.",
+    "type": "Branding, advertising"
+  },
+  "item_6": {
+    "progectPhotos": "w6.png",
+    "title": "Project 7",
+    "type": "Branding, advertising"
+  },
+  "item_7": {
+    "progectPhotos": "w7.png",
+    "title": "Social project",
+    "type": "Site audit, SEO"
+  },
+  "item_8": {
+    "progectPhotos": "w8.png",
+    "title": "Project with long name",
+    "type": "Site audit, SEO"
+  }
+}

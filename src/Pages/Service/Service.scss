@@ -1,0 +1,87 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../../assets/Fonts/Gilroy-Light.otf');
+}
+.pageService {
+    // background-color: aqua;
+    width: 100%;
+    height: 100vh;
+
+    &__inner {
+        // padding-top: 115px;
+        max-width: 1530px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    &__title {
+        display: flex;
+        width: 100px;
+        margin-bottom: 5px;
+        border-bottom: 2px solid #F9FD2E;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 125%;
+        /* or 32px */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #292929;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1380px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 130px;
+        padding-bottom: 140px;
+    }
+    &__columnInner {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        margin-bottom: 120px;
+        width: 25%;
+    }
+    &__cardPrice {
+        width: 188px;
+        height: 33px;
+        left: 280px;
+        top: 571px;
+        background: #F9FD2E;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__columnInner {
+        // flex-wrap: wrap;
+        // width: 25%;
+        // @media (max-width: 995px) {
+        //     width: 50%;
+        // }
+    }
+}
+@media (max-width: 850px) {
+    .pageService__item {
+        width: 30%;
+    }
+}
+@media (max-width: 750px) {
+    .pageService__item {
+        width: 50%;
+    }
+}
+@media (max-width: 450px) {
+    .pageService__item {
+        width: 100%;
+    }
+}

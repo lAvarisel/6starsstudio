@@ -1,0 +1,44 @@
+{
+    "service": {
+        "ecommerce": {
+            "icon": "1",
+            "title": "E-commerce",
+            "price": "2000"
+        },
+        "websites": {
+            "icon": "2",
+            "title": "Websites",
+            "price": "1000"
+        },
+        "adwertising": {
+            "icon": "3",
+            "title": "Advertising",
+            "price": "1000"
+        },
+        "seo": {
+            "icon": "4",
+            "title": "SEO",
+            "price": "1000"
+        },
+        "siteaudit": {
+            "icon": "5",
+            "title": "Site audit",
+            "price": "1000"
+        },
+        "uxui": {
+            "icon": "6",
+            "title": "UX & UI",
+            "price": "1000"
+        },
+        "branding": {
+            "icon": "7",
+            "title": "Branding",
+            "price": "5000"
+        },
+        "consulltancy": {
+            "icon": "8",
+            "title": "Consulltancy",
+            "price": "100"
+        }
+    }
+}

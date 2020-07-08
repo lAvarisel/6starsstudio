@@ -1,0 +1,38 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../../assets/Fonts/Gilroy-Light.otf');
+}
+.clientitem {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__cardTitle {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 125%;
+        margin: 0;
+        margin-top: 25px;
+    }
+    &__description {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        margin: 0;
+        margin-top: 25px;
+    }
+    &__logo {
+        margin-top: 45px;
+    }
+    @media (max-width: 995px) {
+        width: 50%;
+    }
+    @media (max-width: 500px) {
+        width: 100%;
+    }
+}

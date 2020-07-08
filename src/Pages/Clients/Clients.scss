@@ -1,0 +1,54 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../../assets/Fonts/Gilroy-Light.otf');
+}
+.pageClient {
+    &__inner {
+        max-width: 1530px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1400px;
+        margin: 0 auto;
+        margin-top: 130px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-family: Gilroy;
+        width: 100px;
+        height: 62px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #292929;
+        border-bottom: 2px solid #111A6C;
+    }
+    &__upload {
+        width: 212px;
+        height: 36px;
+        margin-bottom: 200px;
+        margin-top: 85px;
+        border: 2px solid #111A6C;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: transparent;
+        &:hover {
+            border: 2px solid #9B27E2;
+            cursor: pointer;
+        }
+        &:active {
+            background: #9B27E2;
+        }
+    }
+}

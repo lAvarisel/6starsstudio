@@ -1,0 +1,232 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../../assets/Fonts/Gilroy-Light.otf');
+}
+.pageAbout {
+    &__title {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        /* or 32px */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #292929;
+        border-bottom: 2px solid #111A6C;
+        height: 62px;
+        width: 100px;
+        justify-content: center;
+        margin-bottom: 135px;
+    }
+    &__title--team,
+    &__title--values,
+    &__title--benefits {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+
+        color: #292929;
+    }
+    &__title--benefits {
+        margin-bottom: 55px;
+        margin-top: 165px;
+    }
+    &__inner {
+        max-width: 1530px;
+        width: 100%;
+        margin: 0 auto;
+        // padding: 15px;
+        // padding-top: 115px;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    &__benefits {
+        margin-bottom: 100px;
+    }
+    &__benefitsLine {
+        border: 1px solid #292929;
+        transform: rotate(-0.07deg);
+    }
+    &__benefitsItem {
+        display: flex;
+    }
+    &__benefitsContent {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+
+        color: #292929;
+    }
+    &__benefitsID {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        max-width: 260px;
+        width: 100%;
+        padding-left: 50px;
+
+        color: #292929;
+    }
+    &__teamInner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__name {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #292929;
+    }
+    &__post {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        color: #292929;
+    }
+    &__foto {
+        max-width: 360px;
+        width: 100%;
+    }
+    &__column {
+        display: flex;
+    }
+    &__ourInner {
+        // max-width: 490px;
+        width: 100%;
+        height: 200px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-image: url(../../assets/dots.svg);
+    }
+    &__ourDescription {
+        text-align: center;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        align-items: center;
+        color: #292929;
+        max-width: 360px;
+        width: 100%;
+    }
+    &__ourTitle {
+        text-align: center;
+        margin-left: 24px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;  
+        color: #292929;
+    }
+    &__titleInner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__ourGroups {
+        display: flex;
+        min-height: 450px;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        max-width: 490px;
+        width: 100%;
+        justify-content: center;
+        // margin-left: 30px;
+    }
+    &__item--1 {
+        align-items: flex-end;
+    }
+    &__item--2 {
+        align-items: center;
+    }
+    &__item--3 {
+        align-items: flex-start;
+    }
+    &__values {
+        margin-bottom: 180px;
+    }
+    &__team {
+        margin-bottom: 200px;
+    }
+    &__cardteam {
+        padding: 5px;
+    }
+    @media (max-width: 1355px) {
+        .pageAbout__ourTitle {
+            font-size: 24px;
+        }
+        .pageAbout__ourDescription {
+            font-size: 14px;
+        }
+        .pageAbout__benefitsContent {
+            font-size: 20px;
+        }
+    }
+    @media (max-width: 900px) {
+        .pageAbout__teamInner {
+            flex-direction: column;
+        }
+        .pageAbout__item--1,
+        .pageAbout__item--2,
+        .pageAbout__item--3 {
+            align-items: center;
+        }
+        .pageAbout__ourGroups {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .pageAbout__item {
+            margin: 5px;
+            margin-top: 25px;
+        }
+        .pageAbout__values {
+            margin-bottom: 25px;
+        }
+        .pageAbout__benefitsID {
+            max-width: 150px;
+        }
+    }
+    @media (max-width: 450px) {
+        .pageAbout__column {
+            flex-direction: column;
+        }
+        .pageAbout__benefitsID {
+            max-width: 75px;
+        }
+    }
+}

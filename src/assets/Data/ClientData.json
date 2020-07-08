@@ -1,0 +1,82 @@
+{
+    "item_1": {
+        "cientLogo": "1pr 4.png",
+        "title": "Food is good",
+        "progectWork": "Noodle factory"
+    },
+    "item_2": {
+        "cientLogo": "cifra1 1.png",
+        "title": "Trade company",
+        "progectWork": "Online reseller"
+    },
+    "item_3": {
+        "cientLogo": "shag 1.png",
+        "title": "A cute cafe",
+        "progectWork": "Italian cuisine"
+      },
+    "item_4": {
+        "cientLogo": "opus 1.png",
+        "title": "Fast food chain",
+        "progectWork": "Chinese cuisine"
+    },
+    "item_5": {
+        "cientLogo": "svoeradio 1.png",
+        "title": "AE producer",
+        "progectWork": "Electronic manufscturer"
+    },
+    "item_6": {
+        "cientLogo": "hetger 1.png",
+        "title": "Name of company",
+        "progectWork": "Typical business"
+    },
+    "item_7": {
+        "cientLogo": "electroservis 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    },
+    "item_8": {
+        "cientLogo": "artascube 1.png",
+        "title": "Carolina Berlinalle",
+        "progectWork": "Songstress"
+    },
+    "item_9": {
+        "cientLogo": "sorochany 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    },
+    "item_10": {
+        "cientLogo": "aristos 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    },
+    "item_11": {
+        "cientLogo": "otel_na_zarechnoi 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    },
+    "item_12": {
+        "cientLogo": "dmitrov-eko 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    },
+    "item_13": {
+        "cientLogo": "kris-group 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    },
+    "item_14": {
+        "cientLogo": "darz 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    },
+    "item_15": {
+        "cientLogo": "optibelt 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    },
+    "item_16": {
+        "cientLogo": "olgovo 1.png",
+        "title": "No name",
+        "progectWork": "Unknown business"
+    }
+  }

@@ -1,0 +1,92 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../../assets/Fonts/Gilroy-Light.otf');
+}
+.footer {
+    width: 100%;;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    
+    &__inner {
+        max-width: 1560px;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    &__contact {
+        display: flex;
+        align-items: center;
+    }
+    &__button {
+        width: 130px;
+        height: 30px;
+        border: 2px solid #FFF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: transparent;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #FFF;
+        &:hover {
+            border: 2px solid #9B27E2;
+            cursor: pointer;
+        }
+        &:active {
+            background: #9B27E2;
+        }
+    }
+    &__mobile {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        color: #FFF;
+        margin: 0;
+        position: relative;
+        margin-right: 35px;
+        &::after {
+            position: absolute;
+            content: '';
+            width: 1px;
+            height: 30px;
+            background-color: #FFF;
+            right: -17px;
+            bottom: -4px;
+        }
+    }
+    &__mark {
+        font-family: Gilroy;
+        margin: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        color: #FFF;
+    }
+    &--alt {
+        position: relative;
+        .footer__mark,
+        .footer__mobile,
+        .footer__button {
+            color: black;
+        }
+        .footer__mobile::after {
+            background-color: black;
+        }
+        .footer__button {
+            border: 2px solid #111A6C;
+        }
+        .footer__button:hover {
+            border: 2px solid #9B27E2;
+        }
+    }
+}

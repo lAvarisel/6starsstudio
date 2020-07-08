@@ -1,0 +1,56 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../../assets/Fonts/Gilroy-Light.otf');
+}
+.pageHome {
+    height: 100vh;
+    overflow:  hidden;
+    // background: aqua;
+    
+    &__inner {
+        height: 100vh;
+        // height: 100%;
+    }
+    &__bgvideo {
+        z-index: -100;
+        position: relative;
+        height: 100vh;
+        display: block;
+        width: 100vw;
+        -webkit-transform: scaleX(1.5); 
+        -moz-transform: scaleX(1.72);
+    }
+    &__btnInner {
+        position: absolute;
+        left: 48%;
+        top: 55%;
+    }
+    &__playbtn {
+        position: relative;
+        width: 74px;
+        height: 74px;
+        border: 1px solid #FFF;
+        border-radius: 50%;
+        background-color: transparent;
+        svg {
+            position: absolute;
+            top: 28px;
+            right: 26px;
+        }
+        &:hover {
+            border: 1px solid #9B27E2;
+            cursor: pointer;
+        }
+    }
+    &__title {
+        position: absolute;
+        top: 35%;
+        // left: 50%;
+        left: calc(50% - 48%);
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 44px;
+        color: #FFF;
+    }
+}
