@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/6starsstudio/static/css/main.82a3e9c8.chunk.css",
+    "main.js": "/6starsstudio/static/js/main.603d644f.chunk.js",
+    "main.js.map": "/6starsstudio/static/js/main.603d644f.chunk.js.map",
+    "runtime-main.js": "/6starsstudio/static/js/runtime-main.f97283ad.js",
+    "runtime-main.js.map": "/6starsstudio/static/js/runtime-main.f97283ad.js.map",
+    "static/js/2.eaa95108.chunk.js": "/6starsstudio/static/js/2.eaa95108.chunk.js",
+    "static/js/2.eaa95108.chunk.js.map": "/6starsstudio/static/js/2.eaa95108.chunk.js.map",
+    "index.html": "/6starsstudio/index.html",
+    "precache-manifest.213a76e1a7c7173db14518296d2aafbb.js": "/6starsstudio/precache-manifest.213a76e1a7c7173db14518296d2aafbb.js",
+    "service-worker.js": "/6starsstudio/service-worker.js",
+    "static/css/main.82a3e9c8.chunk.css.map": "/6starsstudio/static/css/main.82a3e9c8.chunk.css.map",
+    "static/js/2.eaa95108.chunk.js.LICENSE.txt": "/6starsstudio/static/js/2.eaa95108.chunk.js.LICENSE.txt",
+    "static/media/WorkItem.scss": "/6starsstudio/static/media/Gilroy-Light.c62aded7.otf",
+    "static/media/advert.svg": "/6starsstudio/static/media/advert.4ec0aec0.svg",
+    "static/media/audit.svg": "/6starsstudio/static/media/audit.6b5e8ef3.svg",
+    "static/media/bgvideo.mp4": "/6starsstudio/static/media/bgvideo.0e2b02f1.mp4",
+    "static/media/branding.svg": "/6starsstudio/static/media/branding.5a90dd50.svg",
+    "static/media/consultancy.svg": "/6starsstudio/static/media/consultancy.28a6c3ed.svg",
+    "static/media/About.scss": "/6starsstudio/static/media/dots.d743d193.svg",
+    "static/media/ecom.svg": "/6starsstudio/static/media/ecom.83f82964.svg",
+    "static/media/seo.svg": "/6starsstudio/static/media/seo.c53b653c.svg",
+    "static/media/uxui.svg": "/6starsstudio/static/media/uxui.7003a6ef.svg",
+    "static/media/webIcon.svg": "/6starsstudio/static/media/webIcon.d9716325.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f97283ad.js",
+    "static/js/2.eaa95108.chunk.js",
+    "static/css/main.82a3e9c8.chunk.css",
+    "static/js/main.603d644f.chunk.js"
+  ]
+}
